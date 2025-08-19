@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 50px 50px 50px 50px;
+  overflow: auto;
+  font-style: #2a4a5c;
+  background: #eff6ff;
+  box-shadow: 10px rgb(#afafaf);
+}
+
+.container {
+  background-image: url("/img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  width: 50%;
+  height: 600px;
+  min-height: 300px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  margin: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.logo-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 100;
+}
+
+.h2 {
+  font-size: 10px;
+}
+.wrap {
+  float: right;
+  width: 50%;
+  padding: 0 50px 0 50px;
+}
+.first {
+}
+
+.button-between {
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 3rem; */
+}
+
+.facebook {
+  /* margin: 0 0 0 7px; */
+  padding: 7px 7px;
+  font: transparent;
+  border: none;
+  background-color: #255a9b;
+  width: 47%;
+}
+
+.facebook-icon {
+  background-color: transparent;
+}
+
+.linkedin {
+  padding: 7px 7px;
+  border: none;
+  background-color: #0076b6;
+  width: 47%;
+}
+
+.linkedin-icon {
+  background-color: transparent;
+}
+
+.input-wraper:first-child {
+  margin-right: 2rem;
+}
+
+.input-wraper {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+}
+
+.input-container {
+  display: flex;
+}
+.email {
+}
+
+.hr-text {
+}
+
+.gradient {
+}
+
+.second {
+}
+
+.second-checkbox-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50 0 50;
+}
+
+.description {
+  /* opacity: 0; */
+
+  display: block;
+  width: 210px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  text-align: center;
+  border: none;
+  font-size: 0.8em;
+  color: #666;
+  margin: 10px 10px;
+}
+
+.Individual:checked ~ .description {
+  opacity: 1;
+  display: block;
+}
+
+.Select {
+}
+.Select:hover {
+  cursor: pointer;
+}
+
+.confirmation {
+  background-color: #3698fb;
+  border: none;
+  width: 47%;
+  height: 35px;
+}
+
+/* {
+  background-color: #3698fb;
+  background-color: #7b8a92;
+  background-color: #96a5b1;
+  background-color: #afafaf;
+  background-color: #eeeeee;
+  background-color: #ffffff;
+} */
