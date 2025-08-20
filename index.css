@@ -7,19 +7,29 @@ body {
   margin: 50px 50px 50px 50px;
   overflow: auto;
   font-style: #2a4a5c;
-  background: #eff6ff;
-  box-shadow: 10px rgb(#afafaf);
+  background-color: #f1f6ff;
+  box-shadow: 10px 0 10px 10px rgb(#afafaf);
 }
 
 .container {
   background-image: url("/img/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+
   float: left;
   width: 50%;
-  height: 600px;
-  min-height: 300px;
-  position: relative;
+  min-height: 600px;
+  /* position: relative; */
+}
+
+.wrap {
+  float: right;
+  width: 50%;
+  height: 80vh;
+  padding: 50px;
+  background-color: #ffffff;
 }
 
 .logo {
@@ -36,66 +46,100 @@ body {
   background-color: transparent;
 }
 
-h1,
+h1 {
+  font-weight: 200;
+}
 h2,
 h3 {
   font-weight: 100;
 }
 
 .h2 {
-  font-size: 10px;
+  font-weight: 100;
+  color: #666;
+  font-size: 18px;
 }
-.wrap {
-  float: right;
-  width: 50%;
-  padding: 0 50px 0 50px;
-}
+
 .first {
 }
 
 .button-between {
   display: flex;
   justify-content: space-between;
+  outline: 0;
+  outline-offset: 0;
   /* margin-right: 3rem; */
 }
 
 .facebook {
   /* margin: 0 0 0 7px; */
+
   padding: 7px 7px;
   font: transparent;
+  color: #eeeeee;
   border: none;
   background-color: #255a9b;
   width: 47%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .facebook-icon {
+  display: flex;
+  align-items: space-around;
+  margin: 0 10px 0 0;
+
+  justify-content: center;
   background-color: transparent;
 }
 
 .linkedin {
   padding: 7px 7px;
   border: none;
+  color: #eeeeee;
   background-color: #0076b6;
   width: 47%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .linkedin-icon {
+  display: flex;
+  /* align-items: space-around; */
+  margin: 0 20px 0 0;
+
+  justify-content: center;
   background-color: transparent;
 }
 
 .input-wraper:first-child {
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
+}
+.or {
+  display: flex;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 47%;
+  text-align: center;
+
+  /* padding: 0 10em; */
 }
 
 .input-wraper {
   display: flex;
   flex-direction: column;
   width: 47%;
+  border: 2px 0 0 0 solid #3698fb;
 }
 
 .input-container {
   display: flex;
+  justify-content: space-between;
 }
+
 .email {
 }
 
@@ -118,18 +162,19 @@ h3 {
   /* opacity: 0; */
 
   display: block;
-  width: 210px;
+  width: 250px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  text-align: center;
+  text-align: left;
   border: none;
   font-size: 0.8em;
   color: #666;
-  margin: 10px 10px;
+  /* margin: 10px 10px; */
+  padding: 10px;
 }
 
 .Individual:checked ~ .description {
-  opacity: 1;
+  opacity: 0.7;
   display: block;
 }
 
