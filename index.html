@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://www.fontsquirrel.com/fonts/barlow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/index.css" />
     <title>iintoo invest together</title>
   </head>
@@ -20,7 +25,7 @@
         <h3 class="h3">There is no charge or obiligation upon registration</h3>
         <br />
         <div class="button-between">
-          <button class="facebook Select">
+          <button class="facebook select">
             <img
               src="/img/facebook.svg"
               width="17em"
@@ -29,7 +34,7 @@
               class="facebook-icon"
             />Register with Facebook
           </button>
-          <button class="linkedin Select">
+          <button class="linkedin select">
             <img
               src="/img/linkedin.svg"
               width="17em"
@@ -47,13 +52,7 @@
         <div class="input-container">
           <div class="input-wraper">
             <label for="email-id">Email</label>
-            <input
-              type="text"
-              name="Email"
-              id="email-id"
-              placeholder="gus.goodwin@gmail.com"
-              class="email"
-            />
+            <input type="text" name="Email" id="email-id" class="email-phone" />
           </div>
 
           <div class="input-wraper">
@@ -63,7 +62,7 @@
               name="Phone"
               id="phone-id"
               placeholder=""
-              class="phone"
+              class="email-phone"
             />
           </div>
         </div>
@@ -77,7 +76,7 @@
             type="radio"
             name="accountType"
             id="individual"
-            class="Select Individual"
+            class="select individual"
             required
           />
           <label for="individual" id="individual-label">Individualⓘ</label>
@@ -86,7 +85,7 @@
             type="radio"
             name="accountType"
             id="business"
-            class="Select Business"
+            class="select business"
             required
           /><label for="business">Businessⓘ</label>
 
@@ -94,7 +93,7 @@
             type="radio"
             name="accountType"
             id="ira"
-            class="Select"
+            class="select"
             required
           /><label for="ira">IRAⓘ</label>
 
@@ -102,7 +101,7 @@
             type="radio"
             name="accountType"
             id="trust"
-            class="Select"
+            class="select"
             required
           /><label for="trust">Trustⓘ</label>
 
