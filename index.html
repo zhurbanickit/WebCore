@@ -25,7 +25,7 @@
         <h3 class="h3">There is no charge or obiligation upon registration</h3>
         <br />
         <div class="button-between">
-          <button class="facebook select">
+          <button class="facebook custom">
             <img
               src="/img/facebook.svg"
               width="17em"
@@ -34,7 +34,7 @@
               class="facebook-icon"
             />Register with Facebook
           </button>
-          <button class="linkedin select">
+          <button class="linkedin custom">
             <img
               src="/img/linkedin.svg"
               width="17em"
@@ -72,38 +72,46 @@
         <h2>What type of investor are you?</h2>
         <h3 class="h3">Select the type of investor you are below.</h3>
         <div class="second-checkbox-section">
-          <input
-            type="radio"
-            name="accountType"
-            id="individual"
-            class="select individual"
-            required
-          />
-          <label for="individual" id="individual-label">Individualⓘ</label>
+          <div class="select_radio">
+            <input
+              type="radio"
+              name="accountType"
+              id="individual"
+              class="select individual"
+              required
+            />
+            <label for="individual" id="individual-label">Individualⓘ</label>
+          </div>
 
-          <input
-            type="radio"
-            name="accountType"
-            id="business"
-            class="select business"
-            required
-          /><label for="business">Businessⓘ</label>
+          <div class="select_radio">
+            <input
+              type="radio"
+              name="accountType"
+              id="business"
+              class="select business"
+              required
+            /><label for="business">Businessⓘ</label>
+          </div>
 
-          <input
-            type="radio"
-            name="accountType"
-            id="ira"
-            class="select"
-            required
-          /><label for="ira">IRAⓘ</label>
+          <div class="select_radio">
+            <input
+              type="radio"
+              name="accountType"
+              id="ira"
+              class="select"
+              required
+            /><label for="ira">IRAⓘ</label>
+          </div>
 
-          <input
-            type="radio"
-            name="accountType"
-            id="trust"
-            class="select"
-            required
-          /><label for="trust">Trustⓘ</label>
+          <div class="select_radio">
+            <input
+              type="radio"
+              name="accountType"
+              id="trust"
+              class="select"
+              required
+            /><label for="trust">Trustⓘ</label>
+          </div>
 
           <div class="description">
             I am a natural person interesting on my own behalf as a sole owner,
